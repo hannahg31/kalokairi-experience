@@ -11,6 +11,7 @@
 - So many wonderful attractions
 - Need help? Well there's no shortage of English speakers (not just the staff the villagers too)
 - Beutiful nights: cool, starry and cloudless
+
 ---
 ## Are attractions your thing?
 We provide electronic tour guides at the start of your stay, free of charge!
