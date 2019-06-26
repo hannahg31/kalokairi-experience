@@ -1,3 +1,17 @@
 /**
 * Your CSS here
 **/
+body {
+    font-family: 'Yantramanav', sans-serif;
+    color: rgb(0, 204, 255);
+    background-color: #ddf7ff
+}
+h2, h1 {
+    font-family: 'Courgette', cursive;
+}
+h1 {
+    color: rgb(0, 153, 255)
+}
+h2 {
+    color: rgb(0, 204, 255)
+}

@@ -48,6 +48,6 @@ If you do choose to come to Kalokairi during storm season the only way to be saf
 ## It's Famous!
 Kalokairi is the iconic island in the movies in Mamma Mia! and Mamma Mia! Here We Go Again.
 
-[Mamma Mia Trailer]("https://www.youtube.com/embed/XcSMdhfKga4")
+[Mamma Mia: Here We Go Again Trailer]("https://www.youtube.com/watch?v=nd4cLL_MP7M")
 ---
 ## Reviews
