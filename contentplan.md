@@ -6,7 +6,7 @@
 ![A view of the beach from a slightly raised inland perspective](./static/images/kalokairi2.jpg)
 
 ---
-## About Kalokairi
+## About Kalokairi:
 - As the site of Aphrodite's fountain, it is the ultimate romantic destination.
 - So many wonderful attractions
 - Need help? Well there's no shortage of English speakers (not just the staff the villagers too)
@@ -42,12 +42,27 @@ During the RED section the price will range from £650 and over.
 If you do choose to come to Kalokairi during storm season the only way to be safe from the storm, is to be inside. As this is the case we have direct paths from the attrations to the accomadations,for a safer journey inside.
 
 ---
-## Picture Gallery
-
----
 ## It's Famous!
 Kalokairi is the iconic island in the movies in Mamma Mia! and Mamma Mia! Here We Go Again.
 
-[Mamma Mia: Here We Go Again Trailer]("https://www.youtube.com/watch?v=nd4cLL_MP7M")
+[Mamma Mia]("https://www.youtube.com/watch?v=lkN-A00WLYE")
+[Mamma Mia: Here We Go Again Trailer]("https://www.youtube.com/watch?v=XcSMdhfKga4")
+
 ---
 ## Reviews
+![Portrait 2](./static/images/portrait2.jpg)
+
+"It's so amazing, I'll definitely be coming back."
+
+![Portrait 1](./static/images/portrait1.png)
+
+"There is so much to do! Everyday is a new adventure, my family and I loved it."
+
+---
+## Picture Gallery
+![Picture 1](./static/images/kalokairi6.jpg)
+![Picture 2](./static/images/kalokairi3.jpg)
+![Picture 3](./static/images/kalokairi4.jpg)
+![Picture 4](./static/images/kalokairi5.jpg)
+![Picture 5](./static/images/kalokairi.jpg)
+![Picture 6](./static/images/kalokairi7.jpg)

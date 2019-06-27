@@ -4,14 +4,51 @@
 body {
     font-family: 'Yantramanav', sans-serif;
     color: rgb(0, 204, 255);
-    background-color: #ddf7ff
+    background-color: #ddf7ff;
 }
 h2, h1 {
     font-family: 'Courgette', cursive;
 }
 h1 {
-    color: rgb(0, 153, 255)
+    color: rgb(0, 153, 255);
+    font-size: 4.4rem;
+    line-height: 1.2;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
 }
 h2 {
-    color: rgb(0, 204, 255)
+    color: rgb(0, 204, 255);
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+img:hover {
+    filter: brightness(1.05)
+}
+.main-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+section {
+    padding: 10px;
+}
+
+header {
+    padding: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.person-1 img {
+    border: 2px solid blue;
+}
+
+.person-2 img {
+    border: 2px solid blue;
 }
