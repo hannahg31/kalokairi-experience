@@ -10,19 +10,13 @@
     <link rel="stylesheet" href="./static/css/app.css" />
     <link href="https://fonts.googleapis.com/css?family=Courgette|Yantramanav&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="theme">
-        <input class="theme-control" type="radio" name="theme-switcher" id="theme-light">
-        <label class="theme-label" for="theme-light">Light</label>
-        <input class="theme-control" type="radio" name="theme-switcher" id="theme-dark">
-        <label class="theme-label" for="theme-dark">Dark</label>    
-    </div>    
+<body>  
     <main class="app">
         <header>
-                <h1 class="underline" id="aphrodite-s-island">Aphrodite&#39;s Island</h1>   
+                <h1 class="underline main-title" id="aphrodite-s-island">Aphrodite&#39;s Island</h1>   
         </header>
         <section>
-            <h2 class="underline" id="-kalokairi-"><strong>Kalokairi</strong></h2>
+            <h1 class="underline difcolor" id="-kalokairi-">Kalokairi</h2>
             <p class="main-image">
                  <img src="./static/images/Kalokairi2.jpg" alt="A view of the beach from a slightly raised inland perspective">
             </p>
@@ -33,14 +27,14 @@
             <li>As the site of Aphrodite&#39;s fountain, it is the ultimate romantic destination.</li>
             <li>So many wonderful attractions</li>
             <li>Need help? Well there&#39;s no shortage of English speakers (not just the staff the villagers too)</li>
-            <li>Beutiful nights: cool, starry and cloudless</li>
+            <li>Beautiful nights: cool, starry and cloudless</li>
             </ul>
         </section>
         <section>
             <h2 class="underline" id="are-attractions-your-thing-">Are attractions your thing?</h2>
             <p>We provide electronic tour guides at the start of your stay, free of charge!</p>
-            <p>This device comes with earphones, but you can exchange them for headphones if prefered. Broken or damaged earphones will be replaced at front desk.</p>
-            <p>This device plays out information about the chosen attraction. If you don&#39;t feel like listening to long, boring descriptions, well don&#39;t worry. This device gives short detailed explanations to keep you interested but informed.</p>
+            <p>This device comes with earphones, but you can exchange them for headphones if preffered. Broken or damaged earphones will be replaced at front desk.</p>
+            <p>This device reads out information about the chosen attraction. If you don&#39;t feel like listening to long, boring descriptions, well don&#39;t worry. This device gives short detailed explanations to keep you interested but informed.</p>
             <h3 class="underline" id="how-to-use-">How to use:</h3>
             <ul>
             <li>Look at the map displayed at the bottom of the device, and locate the attraction you would like to visit.</li>
@@ -49,23 +43,35 @@
             <p>If you damage this device you will have to pay £50 (€56) for repairs.</p>
         </section>
         <section>
+            <h2 class="underline" id="what-is-there-to-do-">What Is There To Do?</h2>
+            <p>There are so many fun activities to do during your stay at Kalokari. Here&#39;s a few:</p>
+            <ul>
+            <li>Dolphin and Whale watching</li>
+            <li>Scuba and Snorkeling</li>
+            <li>Stand-up Paddleboarding</li>
+            <li>Kayaking and Conoeing</li>
+            <li>Hire equimpent and/or boats</li>
+            <li>Bike and Boat Tours</li>
+            <li>And multiple there&#39;s beaches</li>
+            </ul>
+        </section>
+        <section>
             <h2 class="underline" id="storm-season">Storm Season</h2>
             <p>Prices will vary depending on the time of year, as storms will occur.</p>
             <ul>
-            <li>GREEN- No chance of storms</li>
-            <li>ORANGE- Possible chance of storms</li>
-            <li>RED- Hight chance of storms</li>
+            <li class="green">GREEN- No chance of storms (May, June, July, August</li>
+            <li class="orange">ORANGE- Possible chance of storms (March, April, September, October)</li>
+            <li class="red">RED- Hight chance of storms (January, February, November, December)</li>
             </ul>
-            <p>During the GREEN section the price will range from £800 and over.</p>
-            <p>During the ORANGE section the price will range from  £750 and over.</p>
-            <p>During the RED section the price will range from £650 and over.</p>
+            <p class="green">During the GREEN section the price will range from £800 and over.</p>
+            <p class="orange">During the ORANGE section the price will range from  £750 and over.</p>
+            <p class="red">During the RED section the price will range from £650 and over.</p>
+            <p><img src="./static/images/Rainfall.png" alt="Weather"></p>
             <p>If you do choose to come to Kalokairi during storm season the only way to be safe from the storm, is to be inside. As this is the case we have direct paths from the attrations to the accomadations,for a safer journey inside.</p>
-        </section>
-        <section>
-            <h2 class="underline" id="it-s-famous-">It&#39;s Famous!</h2>
-<p>Kalokairi is the iconic island in the movies in Mamma Mia! and Mamma Mia! Here We Go Again.</p>
-<p><a href="&quot;https://www.youtube.com/watch?v=lkN-A00WLYE&quot;">Mamma Mia</a></p>
-<p><a href="&quot;https://www.youtube.com/watch?v=XcSMdhfKga4&quot;">Mamma Mia: Here We Go Again Trailer</a></p>
+            <a class="weatherwidget-io" href="https://forecast7.com/en/39d1223d73/skopelos/" data-label_1="KALOKAIRI" data-label_2="WEATHER" data-theme="sky" data-basecolor="rgba(74, 198, 241, 0.84)" data-highcolor="#f93a3a" data-suncolor="#ffb600" >KALOKAIRI WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
         </section>
         <section>
             <h2 class="underline" id="reviews">Reviews</h2>
@@ -73,6 +79,12 @@
 <p>&quot;It&#39;s so amazing, I&#39;ll definitely be coming back.&quot;</p>
 <p class="person-2"><img src="./static/images/Portrait1.png" alt="Portrait 1"></p>
 <p>&quot;There is so much to do! Everyday is a new adventure, my family and I loved it.&quot;</p>
+        </section>
+        <section>
+            <h2 class="underline" id="it-s-famous-">It&#39;s Famous!</h2>
+<p>Kalokairi is the iconic island in the movies Mamma Mia! and Mamma Mia! Here We Go Again. Here are the trailers for both movies:</p>
+<p><a href="https://www.youtube.com/watch?v=lkN-A00WLYE">Mamma Mia Trailer</a></p>
+<p><a href="https://www.youtube.com/watch?v=XcSMdhfKga4">Mamma Mia: Here We Go Again Trailer</a></p>
         </section>
         <section>
             <h2 class="underline" id="picture-gallery">Picture Gallery</h2>

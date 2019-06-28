@@ -11,13 +11,22 @@ h2, h1 {
 }
 h1 {
     color: rgb(0, 153, 255);
-    font-size: 4.4rem;
+    font-size: 3.7rem;
     line-height: 1.2;
+}
+
+.difcolor {
+    color: rgb(0, 204, 255);
+}
+
+.main-title {
     background-image: url(../images/background.jpg);
     background-size: cover;
 }
+
 h2 {
     color: rgb(0, 204, 255);
+    font-size: 2.5;
 }
 .gallery {
     display: grid;
@@ -25,13 +34,12 @@ h2 {
     grid-gap: 10px;
 }
 img:hover {
-    filter: brightness(1.05)
+    filter: brightness(1.1)
 }
 .main-image img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
 section {
@@ -51,4 +59,16 @@ header {
 
 .person-2 img {
     border: 2px solid blue;
+}
+
+.green {
+    color: rgb(42, 230, 36);
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
 }
